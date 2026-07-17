@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 }
 
 export default function AanbiedingenPage() {
-  const { intro, featured, offers, gallery, perks, cta } = aanbiedingen
+  const { intro, featured, offers, galleryImages, perks, cta } = aanbiedingen
   return (
     <Shell>
       <PageHero {...aanbiedingen.hero} />
@@ -91,11 +91,11 @@ export default function AanbiedingenPage() {
       </section>
 
       {/* Sfeer gallery strip — extra beeld */}
-      {gallery.length > 0 && (
+      {galleryImages.length > 0 && (
         <section className="section-sm">
           <div className="container">
             <div className="offer-gallery">
-              {gallery.map((src, i) => (
+              {galleryImages.map((src, i) => (
                 <Media key={i} src={src} shape="square" label="Sfeerbeeld" />
               ))}
             </div>
