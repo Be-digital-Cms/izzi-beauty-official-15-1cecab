@@ -1,0 +1,191 @@
+{
+  "site": {
+    "brandName": "IZZI Beauty",
+    "tagline": "Permanente Make-up & Academy",
+    "logo": "",
+    "bookingUrl": "/contact",
+    "ctaLabel": "Afspraak maken",
+    "ctaUrl": "/contact",
+    "nav": [
+      {
+        "label": "Behandelingen",
+        "url": "/behandelingen",
+        "columns": [
+          {
+            "heading": "Wenkbrauwen",
+            "url": "/behandelingen",
+            "links": [
+              { "label": "Ombré Powder Brows", "url": "/behandelingen/powder-brows" },
+              { "label": "Touch-up Powder Brows", "url": "/behandelingen/touch-up-powder-brows" },
+              { "label": "Combi Brows", "url": "/behandelingen/combi-brows" },
+              { "label": "Kleurcorrectie PMU", "url": "/behandelingen/kleurcorrectie" },
+              { "label": "Cover oude PMU", "url": "/behandelingen/cover-oude-pmu" },
+              { "label": "Brow Lamination", "url": "/behandelingen/brow-lamination" }
+            ]
+          },
+          {
+            "heading": "Lippen",
+            "url": "/behandelingen",
+            "links": [
+              { "label": "Lip Blush", "url": "/behandelingen/lip-blush" },
+              { "label": "Lip Enlightenment", "url": "/behandelingen/lip-enlightenment" }
+            ]
+          },
+          {
+            "heading": "Sproetjes & meer",
+            "url": "/behandelingen",
+            "links": [
+              { "label": "Faux Freckles", "url": "/behandelingen/faux-freckles" },
+              { "label": "Permanente Moedervlek", "url": "/behandelingen/permanente-moedervlek" },
+              { "label": "Permanente Eyeliner", "url": "/behandelingen/permanente-eyeliner" },
+              { "label": "Infralash Eyeliner", "url": "/behandelingen/infralash" }
+            ]
+          },
+          {
+            "heading": "Verwijderen",
+            "url": "/behandelingen",
+            "links": [
+              { "label": "Micro Haar Pigmentatie", "url": "/behandelingen/micro-haar-pigmentatie" },
+              { "label": "PMU / Tattoo verwijderen", "url": "/behandelingen/pmu-verwijderen" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Opleidingen",
+        "url": "/opleidingen",
+        "columns": [
+          {
+            "heading": "Wenkbrauwen",
+            "url": "/opleidingen",
+            "links": [
+              { "label": "All Round PMU Opleiding", "url": "/opleidingen/allround-pmu", "tag": "Populair" },
+              { "label": "Ombré Powder Brows", "url": "/opleidingen/ombre-powder-brows" },
+              { "label": "Combi Brows", "url": "/opleidingen/combi-brows" },
+              { "label": "Powder Brows Masterclass", "url": "/opleidingen/ombre-masterclass" },
+              { "label": "Powder Brows + Lip Blush", "url": "/opleidingen/powderbrows-lipblush" }
+            ]
+          },
+          {
+            "heading": "Lippen",
+            "url": "/opleidingen",
+            "links": [
+              { "label": "Lip Blush Beginnersopleiding", "url": "/opleidingen/lip-blush" },
+              { "label": "Lip Blush Masterclass", "url": "/opleidingen/lip-blush-masterclass" }
+            ]
+          },
+          {
+            "heading": "Extra opleidingen",
+            "url": "/opleidingen",
+            "links": [
+              { "label": "Faux Freckles", "url": "/opleidingen/faux-freckles" },
+              { "label": "Infralash Eyeliner", "url": "/opleidingen/infralash" },
+              { "label": "Fineline Training", "url": "/opleidingen/fineline-training" },
+              { "label": "Brow Lamination Training", "url": "/opleidingen/brow-lamination" },
+              { "label": "Lash Lift Training", "url": "/opleidingen/lash-lift" },
+              { "label": "Laser Ontharing", "url": "/opleidingen/laser-ontharing" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Online Trainingen",
+        "url": "/online-trainingen"
+      },
+      {
+        "label": "Prijzen",
+        "url": "/prijzen"
+      },
+      {
+        "label": "Over IZZI",
+        "url": "/over-izzi"
+      },
+      {
+        "label": "Portfolio",
+        "url": "/portfolio"
+      },
+      {
+        "label": "Blog",
+        "url": "/blog"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact"
+      }
+    ],
+    "footer": {
+      "about": "IZZI Beauty is dé specialist in permanente make-up: van natuurlijke, volle Powder Brows tot Lip Blush en Infralash Eyeliner. Daarnaast leiden wij in onze academy nieuwe PMU-artiesten op tot echte professionals.",
+      "email": "info@izzi-beauty.com",
+      "phone": "+31 6 11 76 88 81",
+      "locations": [
+        {
+          "name": "IZZI Beauty Amsterdam",
+          "city": "Amsterdam",
+          "address": "Koningin Wilhelminaplein 13",
+          "postcode": "1062 HH Amsterdam",
+          "phone": "+31 6 11 76 88 81",
+          "hours": "Ma–Za · 09:00 – 18:00",
+          "mapUrl": "https://maps.google.com/?q=Koningin+Wilhelminaplein+13+Amsterdam"
+        },
+        {
+          "name": "IZZI Beauty Den Bosch",
+          "city": "'s-Hertogenbosch",
+          "address": "Zilverenberg 37a",
+          "postcode": "5234 GL 's-Hertogenbosch",
+          "phone": "+31 6 11 76 88 81",
+          "hours": "Ma–Za · 09:00 – 18:00",
+          "mapUrl": "https://maps.google.com/?q=Zilverenberg+37a+Den+Bosch"
+        }
+      ],
+      "columns": [
+        {
+          "heading": "Behandelingen",
+          "links": [
+            { "label": "Ombré Powder Brows", "url": "/behandelingen/powder-brows" },
+            { "label": "Combi Brows", "url": "/behandelingen/combi-brows" },
+            { "label": "Lip Blush", "url": "/behandelingen/lip-blush" },
+            { "label": "Permanente Eyeliner", "url": "/behandelingen/permanente-eyeliner" },
+            { "label": "Faux Freckles", "url": "/behandelingen/faux-freckles" },
+            { "label": "PMU verwijderen", "url": "/behandelingen/pmu-verwijderen" },
+            { "label": "Alle behandelingen", "url": "/behandelingen" }
+          ]
+        },
+        {
+          "heading": "Opleidingen",
+          "links": [
+            { "label": "All Round PMU Opleiding", "url": "/opleidingen/allround-pmu" },
+            { "label": "Ombré Powder Brows", "url": "/opleidingen/ombre-powder-brows" },
+            { "label": "Lip Blush Opleiding", "url": "/opleidingen/lip-blush" },
+            { "label": "Online Trainingen", "url": "/online-trainingen" },
+            { "label": "Alle opleidingen", "url": "/opleidingen" }
+          ]
+        },
+        {
+          "heading": "Informatie",
+          "links": [
+            { "label": "Prijzen", "url": "/prijzen" },
+            { "label": "Over IZZI Beauty", "url": "/over-izzi" },
+            { "label": "Portfolio", "url": "/portfolio" },
+            { "label": "Blog", "url": "/blog" },
+            { "label": "Veelgestelde vragen", "url": "/veelgestelde-vragen" },
+            { "label": "Werken bij IZZI", "url": "/werken-bij-izzi-beauty" },
+            { "label": "UWV Subsidie", "url": "/uwv-subsidie" },
+            { "label": "GGD Vergunning", "url": "/ggd-gecertificeerd" },
+            { "label": "Contact", "url": "/contact" },
+            { "label": "Algemene Voorwaarden", "url": "/algemene-voorwaarden" },
+            { "label": "Privacy Verklaring", "url": "/privacy-verklaring" },
+            { "label": "Opleidingen Voorwaarden", "url": "/opleidingen-voorwaarden" }
+          ]
+        }
+      ],
+      "socials": [
+        { "label": "Instagram", "url": "https://www.instagram.com/izzibrows", "icon": "instagram" },
+        { "label": "Facebook", "url": "https://www.facebook.com/IZZI-Brows-105374961237586", "icon": "facebook" },
+        { "label": "YouTube", "url": "https://www.youtube.com/channel/UCwiq7tGj8OxDpj7Hq9hYypw", "icon": "youtube" }
+      ],
+      "rightsText": "© 2026 IZZI Beauty. Alle rechten voorbehouden.",
+      "legalLabel": "Algemene voorwaarden",
+      "legalUrl": "/algemene-voorwaarden"
+    }
+  }
+}
