@@ -13,7 +13,7 @@
     "badge": "Deal van de maand",
     "title": "All Round PMU Opleiding — inclusief starterskit",
     "text": "Start jouw carrière als permanente make-up artiest met onze complete beginnersopleiding. Deze maand ontvang je de professionele starterskit t.w.v. € 350 volledig gratis bij inschrijving.",
-    "image": "",
+    "image": "/media/Isabella-Levels-IZZI-Beauty-PMU-Salon-Academy-1.webp",
     "oldPrice": "€ 2.495",
     "price": "€ 1.995",
     "discount": "-20%",
@@ -33,7 +33,7 @@
       "badge": "-15%",
       "title": "Ombré Powder Brows Opleiding",
       "text": "Leer de poedertechniek voor natuurlijke, gedefinieerde wenkbrauwen. Tijdelijk met introductiekorting.",
-      "image": "",
+      "image": "/media/All-Round-PMU-opleiding-Amsterdam-en-Rotterdam.webp",
       "oldPrice": "€ 1.295",
       "price": "€ 1.095",
       "validUntil": "31 augustus",
@@ -44,7 +44,7 @@
       "badge": "Duo-deal",
       "title": "Powder Brows + Lip Blush",
       "text": "Twee gewilde technieken in één complete beginnersopleiding, nu met voordelig duo-tarief.",
-      "image": "",
+      "image": "/media/Permanente-Eyeliner.jpeg",
       "oldPrice": "€ 1.895",
       "price": "€ 1.595",
       "validUntil": "31 augustus",
@@ -55,7 +55,7 @@
       "badge": "Populair",
       "title": "Lip Blush Beginnersopleiding",
       "text": "Leer de basis van Lip Blush voor vollere, frissere lippen. Inclusief oefenmateriaal.",
-      "image": "",
+      "image": "/media/Ombre-Powder-Brows-Masterclass.webp",
       "oldPrice": "€ 995",
       "price": "€ 845",
       "validUntil": "15 september",
@@ -66,7 +66,7 @@
       "badge": "Behandeling",
       "title": "Ombré Powder Brows behandeling",
       "text": "Wakker geworden met perfecte wenkbrauwen. Nu inclusief gratis touch-up binnen 6 weken.",
-      "image": "",
+      "image": "/media/Lip-Blush-Pigmentatie.webp",
       "oldPrice": "€ 395",
       "price": "€ 325",
       "validUntil": "30 september",
@@ -77,7 +77,7 @@
       "badge": "Nieuw",
       "title": "Lip Blush behandeling",
       "text": "Vollere, frissere lippen in een natuurlijke kleur. Tijdelijke introductieprijs voor nieuwe klanten.",
-      "image": "",
+      "image": "/media/Ombre-Powder-Brows.webp",
       "oldPrice": "€ 350",
       "price": "€ 295",
       "validUntil": "30 september",
@@ -88,7 +88,7 @@
       "badge": "Online",
       "title": "Online Training bundel",
       "text": "Leer in je eigen tempo met onze online trainingen. Nu met extra voordeel op de complete bundel.",
-      "image": "",
+      "image": "/media/Faux-Freckles.webp",
       "oldPrice": "€ 495",
       "price": "€ 395",
       "validUntil": "31 augustus",
@@ -96,16 +96,37 @@
       "linkLabel": "Bekijk aanbieding"
     }
   ],
-  "gallery": ["", "", "", "", "", ""],
+  "gallery": [
+    "",
+    "",
+    "",
+    ""
+  ],
   "perks": {
     "eyebrow": "Waarom nu boeken",
     "title": "Meer dan alleen een scherpe prijs",
     "text": "Bij IZZI Beauty krijg je kwaliteit, begeleiding en zekerheid — ook tijdens onze acties.",
     "items": [
-      { "icon": "award", "title": "Gecertificeerde docenten", "text": "Leer van ervaren specialisten met jarenlange praktijkervaring." },
-      { "icon": "shield", "title": "GGD-gecertificeerd", "text": "Werk in een veilige, hygiënische en vergunde omgeving." },
-      { "icon": "clock", "title": "Beperkt beschikbaar", "text": "Onze acties gelden zolang er plekken zijn — wees er snel bij." },
-      { "icon": "star", "title": "Topbeoordelingen", "text": "Honderden tevreden klanten en cursisten gingen je voor." }
+      {
+        "icon": "award",
+        "title": "Gecertificeerde docenten",
+        "text": "Leer van ervaren specialisten met jarenlange praktijkervaring."
+      },
+      {
+        "icon": "shield",
+        "title": "GGD-gecertificeerd",
+        "text": "Werk in een veilige, hygiënische en vergunde omgeving."
+      },
+      {
+        "icon": "clock",
+        "title": "Beperkt beschikbaar",
+        "text": "Onze acties gelden zolang er plekken zijn — wees er snel bij."
+      },
+      {
+        "icon": "star",
+        "title": "Topbeoordelingen",
+        "text": "Honderden tevreden klanten en cursisten gingen je voor."
+      }
     ]
   },
   "cta": {
