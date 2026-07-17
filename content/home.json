@@ -12,9 +12,18 @@
     "image": "",
     "videoUrl": "",
     "meta": [
-      { "num": "7.000+", "lbl": "Behandelingen" },
-      { "num": "350+", "lbl": "5-sterren reviews" },
-      { "num": "2", "lbl": "Locaties" }
+      {
+        "num": "7.000+",
+        "lbl": "Behandelingen"
+      },
+      {
+        "num": "350+",
+        "lbl": "5-sterren reviews"
+      },
+      {
+        "num": "2",
+        "lbl": "Locaties"
+      }
     ]
   },
   "reviewStrip": {
@@ -32,7 +41,7 @@
       "Natuurlijk resultaat, afgestemd op jouw gezicht",
       "Twee moderne salons: Amsterdam & Den Bosch"
     ],
-    "image": "",
+    "image": "/media/Isabella-Levels-IZZI-Beauty-PMU-Salon-Academy.webp",
     "badgeNum": "12+",
     "badgeLabel": "Jaar ervaring",
     "buttonLabel": "Maak kennis met IZZI",
@@ -103,17 +112,45 @@
     "title": "Vakmanschap waar je op kunt vertrouwen",
     "text": "Duizenden klanten kozen IZZI Beauty. Dit is waarom.",
     "items": [
-      { "icon": "award", "title": "Gediplomeerde specialisten", "text": "Ons team is volledig opgeleid en GGD-erkend voor permanente make-up." },
-      { "icon": "shield", "title": "Veilige pigmenten", "text": "We werken uitsluitend met REACH-conforme, dermatologisch geteste pigmenten." },
-      { "icon": "hands", "title": "7.000+ behandelingen", "text": "Jarenlange ervaring en duizenden tevreden klanten door heel Nederland." },
-      { "icon": "star", "title": "5,0 gemiddelde review", "text": "Ruim 350 vijfsterrenbeoordelingen op Google en Trustpilot." }
+      {
+        "icon": "award",
+        "title": "Gediplomeerde specialisten",
+        "text": "Ons team is volledig opgeleid en GGD-erkend voor permanente make-up."
+      },
+      {
+        "icon": "shield",
+        "title": "Veilige pigmenten",
+        "text": "We werken uitsluitend met REACH-conforme, dermatologisch geteste pigmenten."
+      },
+      {
+        "icon": "hands",
+        "title": "7.000+ behandelingen",
+        "text": "Jarenlange ervaring en duizenden tevreden klanten door heel Nederland."
+      },
+      {
+        "icon": "star",
+        "title": "5,0 gemiddelde review",
+        "text": "Ruim 350 vijfsterrenbeoordelingen op Google en Trustpilot."
+      }
     ]
   },
   "stats": [
-    { "num": "7.000+", "lbl": "Behandelingen" },
-    { "num": "350+", "lbl": "5-sterren reviews" },
-    { "num": "12+", "lbl": "Jaar ervaring" },
-    { "num": "100%", "lbl": "Natuurlijk resultaat" }
+    {
+      "num": "7.000+",
+      "lbl": "Behandelingen"
+    },
+    {
+      "num": "350+",
+      "lbl": "5-sterren reviews"
+    },
+    {
+      "num": "12+",
+      "lbl": "Jaar ervaring"
+    },
+    {
+      "num": "100%",
+      "lbl": "Natuurlijk resultaat"
+    }
   ],
   "reviewsSection": {
     "eyebrow": "PMU ervaringen",
