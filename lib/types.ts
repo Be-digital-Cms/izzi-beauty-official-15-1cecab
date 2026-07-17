@@ -156,6 +156,10 @@ export type WebshopContent = {
 }
 
 /* ---------- aanbiedingen (nieuwste aanbiedingen / latest offers) — bespoke promo page ---------- */
+/** A single sfeer/gallery image slot — named `image` field so the CMS shows an upload widget (same as the offer cards). */
+export type GalleryImage = {
+  image: string
+}
 /** A single promo/offer card: image, optional badge + old price, current price and validity. */
 export type OfferCard = {
   badge?: string
@@ -186,7 +190,7 @@ export type AanbiedingenContent = {
     secondaryUrl?: string
   }
   offers: OfferCard[]
-  galleryImages: string[]
+  galleryImages: GalleryImage[]
   perks: { eyebrow: string; title: string; text: string; items: Feature[] }
   cta: CtaBlock
 }
