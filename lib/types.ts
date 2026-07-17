@@ -186,7 +186,7 @@ export type AanbiedingenContent = {
     secondaryUrl?: string
   }
   offers: OfferCard[]
-  gallery: string[]
+  galleryImages: string[]
   perks: { eyebrow: string; title: string; text: string; items: Feature[] }
   cta: CtaBlock
 }
