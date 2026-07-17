@@ -61,6 +61,24 @@
       "primaryUrl": "/contact"
     }
   },
+  "free-com": {
+    "hero": {
+      "eyebrow": "Informatie",
+      "title": "Free-com",
+      "text": "Welkom op deze pagina. Vul hier de tekst en informatie aan via het CMS.",
+      "breadcrumb": "Free-com"
+    },
+    "image": "",
+    "body": [
+      { "heading": "Over deze pagina", "paragraphs": ["Dit is een nieuwe pagina. Pas de titel, tekst en secties eenvoudig aan in de Content Editor."] }
+    ],
+    "cta": {
+      "title": "Vragen?",
+      "text": "Neem gerust contact met ons op, we helpen je graag verder.",
+      "primaryLabel": "Neem contact op",
+      "primaryUrl": "/contact"
+    }
+  },
   "ggd-gecertificeerd": {
     "hero": {
       "eyebrow": "Veiligheid",
