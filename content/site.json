@@ -85,6 +85,13 @@
               { "label": "Lash Lift Training", "url": "/opleidingen/lash-lift" },
               { "label": "Laser Ontharing", "url": "/opleidingen/laser-ontharing" }
             ]
+          },
+          {
+            "heading": "Aanbiedingen",
+            "url": "/aanbiedingen",
+            "links": [
+              { "label": "Nieuwste aanbiedingen", "url": "/aanbiedingen", "tag": "Nieuw" }
+            ]
           }
         ]
       },
