@@ -97,10 +97,10 @@
     }
   ],
   "galleryImages": [
-    "",
-    "",
-    "",
-    ""
+    { "image": "" },
+    { "image": "" },
+    { "image": "" },
+    { "image": "" }
   ],
   "perks": {
     "eyebrow": "Waarom nu boeken",

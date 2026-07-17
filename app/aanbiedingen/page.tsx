@@ -95,8 +95,8 @@ export default function AanbiedingenPage() {
         <section className="section-sm">
           <div className="container">
             <div className="offer-gallery">
-              {galleryImages.map((src, i) => (
-                <Media key={i} src={src} shape="square" label="Sfeerbeeld" />
+              {galleryImages.map((g, i) => (
+                <Media key={i} src={g.image} shape="square" label="Sfeerbeeld" />
               ))}
             </div>
           </div>
