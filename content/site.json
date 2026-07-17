@@ -92,6 +92,13 @@
             "links": [
               { "label": "Nieuwste aanbiedingen", "url": "/aanbiedingen", "tag": "Nieuw" }
             ]
+          },
+          {
+            "heading": "Speciale Training",
+            "url": "/free-com",
+            "links": [
+              { "label": "Gratis Combinatie Cursus", "url": "/free-com", "tag": "Nieuw" }
+            ]
           }
         ]
       },
