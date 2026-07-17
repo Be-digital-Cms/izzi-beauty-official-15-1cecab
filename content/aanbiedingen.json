@@ -97,10 +97,18 @@
     }
   ],
   "galleryImages": [
-    { "image": "" },
-    { "image": "" },
-    { "image": "" },
-    { "image": "" }
+    {
+      "image": "/media/Permanente-Eyeliner-1.jpeg"
+    },
+    {
+      "image": "/media/Permanente-Eyeliner-2.jpeg"
+    },
+    {
+      "image": "/media/Ombre-Powder-Brows-Masterclass-1.webp"
+    },
+    {
+      "image": "/media/Lip-Blush-Pigmentatie-1.webp"
+    }
   ],
   "perks": {
     "eyebrow": "Waarom nu boeken",
