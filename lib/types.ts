@@ -155,6 +155,42 @@ export type WebshopContent = {
   cta: CtaBlock
 }
 
+/* ---------- aanbiedingen (nieuwste aanbiedingen / latest offers) — bespoke promo page ---------- */
+/** A single promo/offer card: image, optional badge + old price, current price and validity. */
+export type OfferCard = {
+  badge?: string
+  title: string
+  text: string
+  image: string
+  oldPrice?: string
+  price: string
+  validUntil?: string
+  url: string
+  linkLabel?: string
+}
+export type AanbiedingenContent = {
+  hero: { eyebrow: string; title: string; text: string; breadcrumb: string }
+  intro?: { title: string; text: string }
+  featured: {
+    badge: string
+    title: string
+    text: string
+    image: string
+    oldPrice?: string
+    price: string
+    discount?: string
+    perks: string[]
+    primaryLabel: string
+    primaryUrl: string
+    secondaryLabel?: string
+    secondaryUrl?: string
+  }
+  offers: OfferCard[]
+  gallery: string[]
+  perks: { eyebrow: string; title: string; text: string; items: Feature[] }
+  cta: CtaBlock
+}
+
 /* ---------- legal (algemene-voorwaarden, privacy, opleidingen-voorwaarden) ---------- */
 export type LegalContent = {
   hero: { eyebrow: string; title: string; text: string; breadcrumb: string }

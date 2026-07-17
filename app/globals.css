@@ -496,6 +496,88 @@ p { color: var(--ink-soft); }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
 }
 
+/* ============================================================================
+   Aanbiedingen (nieuwste aanbiedingen / latest offers) — bespoke promo page
+   ============================================================================ */
+/* Featured deal — large split card with a diagonal discount ribbon */
+.offer-featured {
+  display: grid; grid-template-columns: 1.05fr 1fr; gap: 0;
+  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  overflow: hidden; box-shadow: var(--shadow);
+}
+.offer-featured-media { position: relative; min-height: 420px; background: var(--sand); }
+.offer-featured-media .media-ph,
+.offer-featured-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+.offer-ribbon {
+  position: absolute; top: 26px; left: -46px; transform: rotate(-45deg);
+  background: var(--gold); color: var(--white); font-weight: 700; font-size: 0.9rem;
+  letter-spacing: 0.08em; padding: 8px 60px; box-shadow: var(--shadow-sm); z-index: 2;
+}
+.offer-featured-body { padding: 52px 50px; display: flex; flex-direction: column; }
+.offer-badge {
+  align-self: flex-start; background: var(--ink); color: var(--champagne);
+  font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 700;
+  padding: 8px 16px; border-radius: 999px; margin-bottom: 18px;
+}
+.offer-featured-body h3 { font-size: 2rem; margin-bottom: 14px; }
+.offer-featured-body > p { color: var(--muted); margin-bottom: 8px; }
+.offer-price { display: flex; align-items: baseline; gap: 14px; margin: 6px 0 26px; }
+.offer-price-old { color: var(--muted); text-decoration: line-through; font-size: 1.1rem; }
+.offer-price-now { font-family: var(--serif); font-size: 2.4rem; color: var(--gold-deep); line-height: 1; }
+.offer-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: auto; }
+
+/* Offer cards grid — image + badge + price + validity */
+.offers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.offer-card {
+  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+.offer-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-sm); border-color: var(--gold-soft); }
+.offer-card-media { position: relative; aspect-ratio: 4/3; overflow: hidden; background: var(--sand); }
+.offer-card-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.offer-card:hover .offer-card-media img { transform: scale(1.05); }
+.offer-card-media .media-ph { position: absolute; inset: 0; aspect-ratio: auto; height: 100%; }
+.offer-tag {
+  position: absolute; top: 14px; left: 14px; z-index: 2;
+  background: var(--gold); color: var(--white); font-size: 0.68rem; font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px; border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+}
+.offer-card-body { padding: 26px 26px 30px; display: flex; flex-direction: column; flex: 1; }
+.offer-card-body h3 { font-size: 1.35rem; margin-bottom: 8px; }
+.offer-card-body > p { color: var(--muted); font-size: 0.94rem; flex: 1; }
+.offer-card-foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  margin: 18px 0 20px; padding-top: 18px; border-top: 1px solid var(--line);
+}
+.offer-card-foot .offer-price { margin: 0; }
+.offer-card-foot .offer-price-now { font-size: 1.7rem; }
+.offer-card-foot .offer-price-old { font-size: 0.95rem; }
+.offer-valid { font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; text-align: right; }
+.offer-card-body .btn { width: 100%; }
+
+/* Sfeer gallery strip */
+.offer-gallery { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
+.offer-gallery img,
+.offer-gallery .media-ph {
+  width: 100%; aspect-ratio: 1/1; object-fit: cover;
+  border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);
+}
+.offer-gallery .media-ph { box-shadow: none; }
+
+@media (max-width: 900px) {
+  .offer-featured { grid-template-columns: 1fr; }
+  .offer-featured-media { min-height: 300px; }
+  .offer-featured-body { padding: 40px 30px; }
+  .offers-grid { grid-template-columns: repeat(2, 1fr); }
+  .offer-gallery { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 680px) {
+  .offers-grid { grid-template-columns: 1fr; }
+  .offer-gallery { grid-template-columns: repeat(2, 1fr); }
+}
+
 /* ---------- Empty-media placeholder (shown until a client uploads via the CMS) ----------
    A clean, on-brand blank box instead of a broken <img>. Same footprint the real image
    will take, so layouts read correctly during onboarding. */

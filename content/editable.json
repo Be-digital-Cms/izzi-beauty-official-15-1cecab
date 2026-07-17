@@ -8,6 +8,7 @@
     { "file": "opleidingen.json", "label": "Opleidingen (overzicht)", "path": "/opleidingen" },
     { "file": "trainings-detail.json", "label": "Opleidingen (detailpagina's)", "path": "/opleidingen", "itemsArePages": true, "itemBase": "/opleidingen" },
     { "file": "online-trainingen.json", "label": "Online Trainingen", "path": "/online-trainingen" },
+    { "file": "aanbiedingen.json", "label": "Aanbiedingen (nieuwste aanbiedingen)", "path": "/aanbiedingen" },
     { "file": "prijzen.json", "label": "Prijzen", "path": "/prijzen" },
     { "file": "over.json", "label": "Over IZZI", "path": "/over-izzi" },
     { "file": "portfolio.json", "label": "Portfolio", "path": "/portfolio" },
