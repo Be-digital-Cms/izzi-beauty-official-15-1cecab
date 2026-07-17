@@ -313,6 +313,11 @@ export function DetailPage({ data }: { data: DetailContent }) {
                   <Steps title={data.steps.title} items={data.steps.items} />
                 </div>
               )}
+              {data.faqImage !== undefined && (
+                <div className="detail-figure" style={{ marginTop: 44 }}>
+                  <Media src={data.faqImage} alt={data.hero.title} shape="wide" label={data.hero.title} />
+                </div>
+              )}
               {data.faq && data.faq.items.length > 0 && (
                 <div style={{ marginTop: 44 }}>
                   <FaqList title={data.faq.title} items={data.faq.items} />
