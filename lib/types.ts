@@ -98,6 +98,8 @@ export type DetailContent = {
   intro: string
   body: { heading: string; paragraphs: string[]; checklist?: string[] }[]
   steps?: { title: string; items: Step[] }
+  /** Optional image shown just before the FAQ section. Empty → on-brand placeholder. */
+  faqImage?: string
   faq?: { title: string; items: Faq[] }
   aside: { factsTitle: string; facts: DetailFact[]; ctaTitle: string; ctaText: string; ctaLabel: string; ctaUrl: string }
   cta: CtaBlock
