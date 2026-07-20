@@ -6,7 +6,17 @@
     "breadcrumb": "Portfolio"
   },
   "intro": "Elke behandeling is maatwerk. Deze voorbeelden geven een indruk van wat er mogelijk is — jouw resultaat bepalen we samen tijdens de intake.",
-  "images": ["", "", "", "", "", "", "", "", ""],
+  "images": [
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" },
+    { "image": "", "alt": "" }
+  ],
   "cta": {
     "script": "Jouw resultaat begint hier",
     "title": "Klaar voor jouw transformatie?",

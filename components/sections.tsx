@@ -225,17 +225,12 @@ export function PriceList({ groups }: { groups: PriceGroup[] }) {
 }
 
 /** Masonry gallery. Empty entries render a blank placeholder tile (never a broken image). */
-export function Gallery({ images }: { images: string[] }) {
+export function Gallery({ images }: { images: { image: string; alt?: string }[] }) {
   return (
     <div className="gallery">
-      {images.map((src, i) =>
-        (src ?? '').trim() ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img key={i} src={src} alt="" />
-        ) : (
-          <Media key={i} src="" shape="square" label="Foto" />
-        ),
-      )}
+      {images.map((item, i) => (
+        <Media key={i} src={item.image} alt={item.alt ?? ''} shape="square" label="Foto" />
+      ))}
     </div>
   )
 }
