@@ -135,7 +135,9 @@ export type OverContent = {
 export type PortfolioContent = {
   hero: { eyebrow: string; title: string; text: string; breadcrumb: string }
   intro?: string
-  images: string[]
+  /** Each item is an object with a named `image` field so the CMS shows an upload/media
+   *  panel per photo (a bare string array would only offer a paste-URL text box). */
+  images: { image: string; alt?: string }[]
   cta: CtaBlock
 }
 
